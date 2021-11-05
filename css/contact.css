@@ -1,0 +1,48 @@
+.top-wrapper{
+    background-image: url(/img/contact/topimg.jpg);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0px 5px 7px -7px #aaaaaa;
+    border-bottom: 4px solid #3C5EAB;
+}
+
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-txt{
+    margin: 2em 0em 12em;
+}
+
+.box-txt-p{
+    box-shadow: 0px 5px 7px #656565;
+    border: 1px solid #656565;
+    border-radius: 20px;
+
+    margin-top: 2em;
+    padding: 2.5em 4em;
+    background-color: #fff;
+}
+
+.box-txt-p h2{
+    font-size: 24px;
+    color: #746161;
+}
+
+.box-txt-p p{
+    font-size: 16px;
+    color: #746161;
+}
+
+
+
+
+
+
+

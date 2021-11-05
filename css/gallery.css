@@ -1,0 +1,28 @@
+.top-text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+
+    box-shadow: 0px 5px 7px -7px #aaaaaa;
+    border-bottom: 4px solid #3C5EAB;
+}
+
+.gallery{
+    text-align: center;
+    margin: 3em 0;
+
+}
+
+.gallery img{
+    width: 25%;
+    margin: 1%;
+    display: inline-block;
+    box-shadow: 0px 2px 6px #aaaaaa;
+
+    transition: 0.3s;
+}
+
+.gallery img:hover{
+    width: 26%;
+    box-shadow: 0px 5px 7px #aaaaaa;
+}

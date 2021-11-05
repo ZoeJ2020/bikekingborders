@@ -1,0 +1,45 @@
+.top-wrapper{
+    background-image: url(/img/localArea/topimg.jpg);
+}
+
+.content{
+    display: flex;
+    margin: 3em 0em 3em 4em
+}
+
+iframe{
+    width: 110%;
+    box-shadow: 0px 2px 7px #aaaaaa;
+}
+
+.content h2{
+    margin-bottom: 2%;
+}
+
+.content p{
+    margin: 0 9em 2em 0;
+    color: #746161;
+}
+
+.text{
+    margin-left: 2em;
+}
+
+.top-wrapper p{
+    margin-top: 3%;
+    color: white;
+}
+
+.top-text{
+    padding: 5em 47em 2em 7em;
+    margin-bottom: 12em;
+}
+
+.top-wrapper{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-bottom: 4px solid #3C5EAB;
+    box-shadow: 0px 5px 7px #aaaaaa;
+}
