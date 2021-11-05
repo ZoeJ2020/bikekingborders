@@ -44,6 +44,56 @@ nav a:hover{
     text-decoration: underline 1.7px #3C5EAB;
 }
 
+.mobnav {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .mobnav .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 7em;
+    padding: 2% 2.5%;
+  }
+  
+.mobnav .logo img {
+    height: auto;
+    width: 74px;
+}
+  
+  .mobnav #links {
+    display: none;
+    background-color: ;
+  }
+  
+  .mobnav a {
+    color: white;
+    background-color: #044e2c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .mobnav a.icon {
+    background: rgba(255, 255, 255, 0);
+    color: #044e2c;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 7%;
+  }
+  
+  .mobnav a:hover {
+    color: #3C5EAB;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
 h1{
     font-size: 36px;
     font-weight: lighter;
@@ -144,4 +194,24 @@ footer h2{
 
 footer li{
     font-size: 14px;
+}
+
+@media screen and (max-width: 667px)
+{
+    nav{
+        display: none;
+    }
+    .mobnav{
+        overflow: visible;
+      }
+}
+
+@media screen and (min-width: 667px)
+{
+    nav{
+        display: block;
+    }
+    .mobnav{
+        display: none;
+      }
 }
