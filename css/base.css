@@ -82,7 +82,9 @@ nav a:hover{
     position: absolute;
     right: 0;
     top: 0;
-    margin: 7%;
+    margin: 3%;
+    font-size: 30px;
+    transition: 0.2s;
   }
   
   .mobnav a:hover {
