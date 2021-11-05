@@ -14,3 +14,40 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.unit {
+    width: 30%;
+    margin-left: 3ch;
+    margin-bottom: 5ch;
+
+}
+
+.unit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2ch;
+    max-width: 250px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .unit {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .unit {
+        width: 90%;
+    }
+}

@@ -47,7 +47,7 @@
 
 .top-text{
     padding: 6%;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .top-wrapper{
@@ -62,18 +62,18 @@
 @media screen and (max-width: 910px)
 {
 
-.content img{
-    display: none;
-}
+    .content img{
+        display: none;
+    }
 
-.content{
-    padding: 3% 0;
-    align-items: center;
-    justify-content: center;
-}
+    .content{
+        padding: 3% 0;
+        align-items: center;
+        justify-content: center;
+    }
 
-.content p{
-    font-size: 16px;
-}
+    .content p{
+        font-size: 16px;
+    }
 
 }

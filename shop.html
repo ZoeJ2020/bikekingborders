@@ -6,42 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop - Bike King Borders</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Reem+Kufi&display=swap" rel="stylesheet"> 
 
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/shop.css">
+    <script src="/js/base.js"></script>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/shop.css">
 </head>
 <body>
     
     <div class="top-wrapper">
         <nav>
             <div class="logo">
-                <img class="logo" src="./img/logo.png" alt="">
+                <img class="logo" src="/img/logo.png" alt="">
             </div>
     
-            <a href="index.html">Home</a>
-            <a href="localArea.html">Local Area</a>
-            <div class="dropdown">
-                <a class="drop-a" href="store.html">Store</a>
-                <div class="dropdown-content">
-                    <a href="hire.html">Hire</a>
-                    <a href="shop.html" class="page">Shop</a>
-                </div>
+        <a href="index.html">Home</a>
+        <a href="localArea.html">Local Area</a>
+        <div class="dropdown">
+            <a class="drop-a" href="store.html" class="page">Store</a>
+            <div class="dropdown-content">
+                <a href="hire.html">Hire</a>
+                <a href="shop.html">Shop</a>
             </div>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html" style="color: #fff;">Contact</a>
+        </div>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
         </nav>
+
+
+        <!-- MOBILE NAV START -->
+        <div class="mobnav">
+            <div class="logo">
+                <img class="logo" src="./img/logo.png" alt="">
+            </div>
+            <div id="links">
+                <a href="index.html">Home</a>
+                <a href="localArea.html">Local Area</a>  
+                <a href="store.html">Store</a>
+                <a href="hire.html">Hire</a>
+                <a href="shop.html">Shop</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            
+        </div>
+        <!-- MOBILE NAV END -->
         
         <div class="top-text">
-            <h1>SHOP</h1>
+            <h1>HIRE</h1>
         </div>
     </div>
 
-    <div class="content">
+    <!-- CONTENT START -->
+    <div class="content-wrapper">
+        <h2 style="text-align: center;">Bike Type</h2>
+    <div class="container">
+        <div class="unit">
+            <img src="/img/hire/placeholder.jpg" alt="">
+            <h2>Name</h2>
+            <p>£___</p>
+        </div>
 
+        <div class="unit">
+            <img src="/img/hire/placeholder.jpg" alt="">
+            <h2>Name</h2>
+            <p>£___</p>
+        </div>
+
+        <div class="unit">
+            <img src="/img/hire/placeholder.jpg" alt="">
+            <h2>Name</h2>
+            <p>£___</p>
+        </div>
+
+        <div class="unit">
+            <img src="/img/hire/placeholder.jpg" alt="">
+            <h2>Name</h2>
+            <p>£___</p>
+        </div>
+
+        <div class="unit">
+            <img src="/img/hire/placeholder.jpg" alt="">
+            <h2>Name</h2>
+            <p>£___</p>
+        </div>
+
+        <div class="unit">
+            <img src="/img/hire/placeholder.jpg" alt="">
+            <h2>Name</h2>
+            <p>£___</p>
+        </div>
     </div>
+    <!-- CONTENT END -->
     
     <footer>
         <div class="footer-list">

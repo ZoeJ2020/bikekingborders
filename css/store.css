@@ -36,3 +36,22 @@
 .side-b .text{
     margin: 2em 1em 3em 2em;
 }
+
+@media screen and (max-width: 1077px)
+{
+
+    .content img{
+        display: none;
+    }
+
+    .content{
+        padding: 3% 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content p{
+        font-size: 16px;
+    }
+
+}
