@@ -37,11 +37,11 @@
     margin: 2em 1em 3em 2em;
 }
 .ad1{
-    background-image: url(/img/store/hire.jpg);
+    background-image: url(./img/store/hire.jpg);
 }
 
 .ad2{
-    background-image: url(/img/store/shop.jpg);
+    background-image: url(./img/store/shop.jpg);
 }
 
 article{
