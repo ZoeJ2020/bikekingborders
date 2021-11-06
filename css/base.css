@@ -188,12 +188,6 @@ footer{
     color: #fff;
 }
 
-.footer-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 footer h2{
     color: #fff;
     font-size: 24px;
@@ -201,6 +195,18 @@ footer h2{
 
 footer li{
     font-size: 14px;
+}
+
+footer a{
+    color: #aaaaaa;
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2% 0;
 }
 
 @media screen and (max-width: 667px)

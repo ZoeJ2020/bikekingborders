@@ -36,9 +36,37 @@
 .side-b .text{
     margin: 2em 1em 3em 2em;
 }
+.ad1{
+    background-image: url(/img/store/hire.jpg);
+}
 
-@media screen and (max-width: 1077px)
+.ad2{
+    background-image: url(/img/store/shop.jpg);
+}
+
+article{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    padding: 6em;
+}
+
+p{
+    padding: 1em 2em 4em;
+    color: #fff;
+}
+
+@media screen and (max-width: 667px)
 {
+    p{
+        padding: 1em 2em 2em;
+    }
+
+    article{
+        padding: 2em;
+    }
 
     .content img{
         display: none;
